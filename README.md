@@ -1,6 +1,11 @@
 # aprendizagem-com-ia-notebooklm
 Projeto desenvolvido no desafio da **Digital Innovation One (DIO)** com foco em **engenharia de prompt**, **aprendizagem ativa** e uso do **NotebookLM** como ferramenta de apoio ao estudo.
 
+## Autor
+
+**Samuel Ramos**  
+GitHub: [Samuelx0R](https://github.com/Samuelx0R)
+
 ---
 
 ## Visão geral
