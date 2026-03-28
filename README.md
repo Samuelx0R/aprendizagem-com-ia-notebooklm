@@ -53,11 +53,11 @@ As fontes utilizadas foram oficiais e selecionadas com base em sua relevância p
 
 ### Referências utilizadas
 
-- OpenAI — *Best practices for prompt engineering with the OpenAI API*  
-- Google — *Prompt design strategies | Gemini API*  
-- Microsoft — *Crie prompts eficazes*  
-- Google — *Add or discover new sources for your notebook - Computer*  
-
+- [OpenAI — Best practices for prompt engineering with the OpenAI API](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api)
+- [Google Gemini — Prompt design strategies | Gemini API](https://ai.google.dev/gemini-api/docs/prompting-strategies)
+- [Microsoft Copilot — Crie prompts eficazes](https://learn.microsoft.com/pt-br/copilot/security/prompting-tips)
+- [NotebookLM Help — Add or discover new sources for your notebook - Computer](https://support.google.com/notebooklm/answer/16215270?co=GENIE.Platform%3DDesktop&hl=en)
+  
 ---
 
 ## Metodologia
@@ -93,6 +93,18 @@ Foi realizado um teste com um comando propositalmente aberto, seguido de uma ref
 
 ### 4. Comparação entre fontes ativadas e desativadas
 Foi analisado o comportamento do NotebookLM com e sem acesso às fontes do notebook, a fim de observar diferenças de ancoragem, especificidade e continuidade argumentativa.
+
+---
+## Registro visual da experimentação
+
+### Notebook configurado com as fontes utilizadas
+![Notebook com fontes](assets/prints/01-introducao-notebook-fontes.png.png)
+
+### Exemplo de prompt refinado
+![Prompt refinado](assets/prints/05-prompt-refinado-bons-prompts-para-estudos-v1.png.png)
+
+### Exemplo de troubleshooting: prompt corrigido para revisão de prova
+![Prompt corrigido](assets/prints/09-prompt-corrigido-revisao-de-prova.png.png)
 
 ---
 
@@ -159,13 +171,21 @@ Além disso, a comparação entre relatórios com fontes ativadas e desativadas 
 
 ---
 
+## Documento completo
+
+O trabalho completo está disponível em:
+
+- [`docs/aprendizagem-com-ia-notebooklm.pdf`](docs/aprendizagem-com-ia-notebooklm.pdf)
+
+---
+
 ## Estrutura do repositório
 
 ```text
-aprendizagem-com-ia/
-├── README.md
+aprendizagem-com-ia-notebooklm/
+├── assets/
+│   └── prints/
 ├── docs/
-│   └── docs/aprendizagem-com-ia-notebooklm.pdf
-└── assets/
-    └── prints/
+│   └── aprendizagem-com-ia-notebooklm.pdf
+└── README.md
 
