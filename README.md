@@ -165,7 +165,7 @@ Além disso, a comparação entre relatórios com fontes ativadas e desativadas 
 aprendizagem-com-ia/
 ├── README.md
 ├── docs/
-│   └── trabalho-final.pdf
+│   └── docs/aprendizagem-com-ia-notebooklm.pdf
 └── assets/
     └── prints/
 
