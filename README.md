@@ -121,6 +121,20 @@ A experimentação permitiu observar que:
 
 ---
 
+## Dificuldades encontradas (troubleshooting)
+
+Durante a experimentação, algumas dificuldades importantes foram observadas:
+
+- prompts vagos tendiam a gerar respostas amplas, mas pouco úteis para revisão;
+- respostas mais detalhadas nem sempre executavam todos os elementos solicitados;
+- a presença de fontes melhorava a ancoragem factual, mas não eliminava a necessidade de validação crítica;
+- em alguns casos, o NotebookLM manteve continuidade argumentativa mesmo com fontes desativadas, sugerindo uso do histórico da interação e inferências próprias;
+- o refinamento do prompt se mostrou essencial para melhorar foco, clareza e utilidade pedagógica das respostas.
+
+Essas observações reforçaram que o uso acadêmico da inteligência artificial exige não apenas bons comandos, mas também leitura crítica, revisão e interpretação ativa por parte do estudante.
+
+---
+
 ## Discussão
 
 Os testes mostraram que a qualidade da interação com a IA não depende apenas da capacidade do modelo, mas também da forma como o usuário estrutura sua solicitação.
